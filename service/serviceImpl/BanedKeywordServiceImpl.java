@@ -22,13 +22,13 @@ public class BanedKeywordServiceImpl {
 	 
 	 public interface BanedKeywordService1 {
 			/**
-			 * add baned keyword, it is used by backend
+			 * add baned keyword it is used by backend
 			 * @param word
 			 * @return
 			 */
 			boolean addBanedKeyword(String word);
 			/**
-			 * remove baned keyword, it is used by backend
+			 * remove baned keyword it is used by backend
 			 * @param word
 			 * @return
 			 */
@@ -58,7 +58,7 @@ public class BanedKeywordServiceImpl {
 	     *           
 	     * @param matchType
 	     *            
-	     * @return exist then true，not exist then false
+	     * @return exist then true not exist then false
 	     * @version 1.0
 	     */
 	    public boolean isContaintSensitiveWord(String txt, int matchType) {
@@ -204,8 +204,8 @@ public class BanedKeywordServiceImpl {
 
 	    
 	    /**
-	     * @Description: 
-	     * @Project：test
+	     * @Description
+	     * @Project test
 	     * @version 1.0
 	     */
 	    public class SensitiveWordInit {
